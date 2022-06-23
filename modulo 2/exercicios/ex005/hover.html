@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Utilizando hover </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: #ffffff;
+            background: red;
+            width: 200px;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+        div#teste > a:visited{
+            color: red;
+            background-color: yellow;
+        }
+
+        p:empty{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1> Exemplo de hover </h1>
+    <p> Passe o mouse sobre o texto abaixo. </p>
+
+    <div>
+        Passe o mouse aqui.
+        <p> TEXTO ESCONDIDO...</p>
+    </div>
+
+    <p> Fim do exemplo. </p>
+
+    <div id="teste">
+        <a href="https://www.google.com/intl/pt/gmail/about/" target="_blank"> Google</a>
+    </div>
+
+    <p> teste</p>
+    <p></p>
+</body>
+</html>

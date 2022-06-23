@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b3ffff;
+}
+
+h1{
+    color: #548686;
+}
+
+h1#titulo-principal{
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+
+    text-align: center;
+    font-weight: lighter;
+    background-color: #548686;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+h2{
+    color: #2f4b4b;
+}
+
+.basico{
+    color: #47aa47c9;
+}
+
+.intermediario{
+    color: #a8aa47c9;
+}
+
+.avancado{
+    color: #aa4747c9;
+}
+
+

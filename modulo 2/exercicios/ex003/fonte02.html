@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fontes externas </title>
+    <style>
+        @font-face {
+            /* font-family - Irá por o nome que desejar */
+            font-family: "Love story"; 
+            /* src- irá por o caminho em que se encontra a fonte.
+            format- por o formato da fonte 
+            */
+            src: url("fonts/love\ story\ ttf.ttf") format("truetype");
+            /* font-weight/ font-style - tentar por a fonte normal, se precisar alterar, modificar diretamente na propriedade que desejar */
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Alice";
+            src: url("fonts/Alice_in_Wonderland_3.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1{
+            font-family: 'Love story', Times, serif;
+            font-weight: normal;
+            font-size: 3em;
+        }
+
+        h2{
+            font-family: "Alice";
+            font-size: 3em;
+            font-weight: normal;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h1> Titulo </h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ad nulla odit maiores assumenda inventore quas itaque accusamus, expedita officia sapiente? Odit distinctio reprehenderit, magnam adipisci maiores iure quisquam. Accusamus?
+    </p>
+
+    <h2> subtítulo </h2>
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas vitae sint quia rem consectetur ducimus repudiandae alias facilis, cumque quos incidunt, minus est itaque laboriosam id error nemo veritatis.
+    </p>
+</body>
+</html>
